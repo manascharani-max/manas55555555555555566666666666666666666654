@@ -1,0 +1,15 @@
+try:
+    num1, num2 = eval(input("enter 2 num using coma"))
+    divide = num1/num2
+    print("devision of it is:", divide)
+
+except ZeroDivisionError:
+    print("not available")
+except ValueError:
+    print("see what you have entered!")
+except SyntaxError:
+    print("see what you have entered!")
+
+valid = False
+while not valid:
+def name
